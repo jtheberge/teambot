@@ -1,0 +1,22 @@
+{
+  "name": "slack_teamBot",
+  "version": "1.0.0",
+  "description": "A node app that connects MongoDB with Slack. Helps teams perform tasks via a Slack chat bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint **/*.js"
+  },
+  "author": "Joseph Theberge",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.2.3",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
